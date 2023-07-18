@@ -1,0 +1,83 @@
+*{
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Roboto:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap');
+  font-family: 'Poppins', sans-serif;
+}
+/* header section  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px 40px 120px;
+    
+}
+nav>ul{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav>ul a{
+    text-decoration: none;
+    margin: 20px;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.title-head{
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 2.5rem;
+font-weight: 700;
+}
+
+.manu-img{
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* Banner section  */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px 40px 120px;
+    gap: 70px;
+}
+.banner-title{
+    color: #3A3A3A;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.banner-desc{
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.banner-img{
+    width: 100%;
+    
+}
+.btn{
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background: #E02C6D;
+    padding: 10px 24px;
+
+    gap: 8px;
+    margin: 0;
+}
+
+/* small device responsive  */
+@media screen and (max-width: 576px){
+    nav{
+       flex-direction: column;
+
+    }
+    
+}
