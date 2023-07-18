@@ -69,6 +69,17 @@ font-weight: 700;
     border: none;
     gap: 8px;
 }
+/* partner section  */
+.sponsor-container{
+    
+    padding: 40px 120px 40px 120px;
+}
+.sponsor-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
 
 /* small device responsive  */
 @media screen and (max-width: 576px){
